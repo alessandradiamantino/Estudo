@@ -1,0 +1,21 @@
+import turtle
+bob = turtle.Turtle()
+wn = turtle.Screen()
+wn.bgcolor("black")
+bob.pensize(10)
+for aColor in ["yellow", "green", "purple", "red"]:
+	bob.circle(90)
+	bob.color("yellow")
+        wn.bgcolor("orange")
+	bob.circle(80)
+	bob.color("green")
+	wn.bgcolor("blue")
+	bob.circle(70)
+	bob.color("purple")
+	wn.bgcolor("pink")
+	bob.circle(60)
+	bob.color("red")
+	wn.color("lightbrown")
+	bob.circle(50)
+	wn.bgcolor("lightgreen")
+	
